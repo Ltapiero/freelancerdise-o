@@ -14,8 +14,18 @@
 }
 
 
+
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color: var(--secundario);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var(--primario);
 }
 
 h1{
