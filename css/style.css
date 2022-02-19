@@ -71,12 +71,24 @@ p{
     }
 } 
 
+
 .Titulo_principal{
+    margin-top: 70px;
     color: var(--primario);
     font-weight: 600;
     margin-bottom: 0px;
 }
 
+@media (max-width: 1200px) {
+    .Titulo_principal{
+        margin-top: 0;
+    } 
+} 
+
+.Titulo_principal--bold{
+    font-weight: 600;
+    color: var(--blanco);
+}
 
 .img_header{
     width: 90%;
@@ -141,7 +153,7 @@ p{
 }
 
 .header{
-    background-image: url("/Img/background.jpg");
+    background-image: url("/Img/background.webp");
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--blanco);
