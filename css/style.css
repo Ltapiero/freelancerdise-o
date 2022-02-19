@@ -617,6 +617,14 @@ p{
     transform: scale(1.2);
 }
 
+.behance__imagenes__caja--svg{
+    transition: .5s all ease;
+}
+
+.behance__imagenes__caja:hover .behance__imagenes__caja--svg{
+    transform: scale(1.2);
+}
+
 .behance__imagenes__caja:hover .behance__imagenes__caja--back{
     width: 100%;
 }
