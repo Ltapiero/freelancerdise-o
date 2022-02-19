@@ -578,11 +578,21 @@ p{
     }
 } 
 
+@media (min-width: 1000px) {
+    .behance__imagenes__caja:last-child{
+        grid-column: 1 / 4;
+    }
+} 
+
 .behance__imagenes__caja{
     overflow: hidden;
     position: relative;
     text-align: center;
+    align-self: center;
+    justify-self: center;
 }
+
+
 
 .behance__imagenes__caja a img{
     width: 100%;
