@@ -329,6 +329,14 @@ p{
     margin-bottom: 12px;
 }
 
+.sobre_mi_detallespersonales div div ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secundario);
+}
+
+
+
 .sobre_mi_detallespersonales_texto_negrita{
     font-weight: 600;
     color: #2e353e ;
@@ -487,7 +495,7 @@ p{
 }
 
 .Habilidades_linea_3{
-    width: 50%;
+    width: 80%;
 }
 
 .Habilidades_linea_4{
@@ -545,6 +553,65 @@ p{
     font-weight: 600;
     color: #2e353e !important;
 }
+
+/*behance  */
+.behance{
+    background-color: #ecf1f7;
+    padding: 60px 0
+}
+
+.behance__contenedor h2{
+    padding-bottom: 30px;
+}
+
+.behance__imagenes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .behance__imagenes{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+} 
+
+.behance__imagenes__caja{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.behance__imagenes__caja a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s all ease;
+}
+
+.behance__imagenes__caja--back{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(253, 213, 92, 0.5);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s all ease-out;
+}
+
+.behance__imagenes__caja:hover .behance__imagenes__caja--img{
+    transform: scale(1.2);
+}
+
+.behance__imagenes__caja:hover .behance__imagenes__caja--back{
+    width: 100%;
+}
+
+
 
 /* contacto */
 
