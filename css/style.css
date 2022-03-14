@@ -160,6 +160,7 @@ p{
 
 .navegacion_principal ul li a{
     background-color: var(--primario);
+    display: inline-block;
 }
 
 .navegacion_iconos{
