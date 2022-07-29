@@ -421,7 +421,17 @@ p{
     flex-direction: row;
 }
 
+@media (max-width:600px) {
+    .experiencia_detallado iframe{
+        height: 250px;
+    }
+}
 
+@media (min-width:601px) {
+    .experiencia_detallado iframe{
+        height: 500px;
+    }
+}
 
 .experiencia_datos{
     background-color: var(--primario);
